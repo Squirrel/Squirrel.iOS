@@ -3,10 +3,6 @@
 Squirrel is an iOS framework focused on making enterprise application
 distribution as safe and transparent as updates to a website.
 
-Instead of publishing a feed of versions from which your app must select,
-Squirrel updates to the version your server tells it to. This allows you to
-intelligently update your clients based on the request you give to Squirrel.
-
 Your request can include authentication details, custom headers or a request
 body so that your server has the context it needs in order to supply the most
 suitable update.
