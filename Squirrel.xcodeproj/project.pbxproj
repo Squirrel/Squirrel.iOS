@@ -10,6 +10,27 @@
 		54C1C99E19FFD0DB006BD789 /* Squirrel.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C1C99D19FFD0DB006BD789 /* Squirrel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54C1C9A419FFD0DB006BD789 /* Squirrel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1C99819FFD0DB006BD789 /* Squirrel.framework */; };
 		54C1C9AB19FFD0DB006BD789 /* SquirrelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C1C9AA19FFD0DB006BD789 /* SquirrelTests.m */; };
+		54C1C9CC19FFDCC0006BD789 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9B619FFDCC0006BD789 /* Common.xcconfig */; };
+		54C1C9CD19FFDCC0006BD789 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9B819FFDCC0006BD789 /* Debug.xcconfig */; };
+		54C1C9CE19FFDCC0006BD789 /* Profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9B919FFDCC0006BD789 /* Profile.xcconfig */; };
+		54C1C9CF19FFDCC0006BD789 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9BA19FFDCC0006BD789 /* Release.xcconfig */; };
+		54C1C9D019FFDCC0006BD789 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9BB19FFDCC0006BD789 /* Test.xcconfig */; };
+		54C1C9D119FFDCC0006BD789 /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9BD19FFDCC0006BD789 /* Application.xcconfig */; };
+		54C1C9D219FFDCC0006BD789 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9BE19FFDCC0006BD789 /* Framework.xcconfig */; };
+		54C1C9D319FFDCC0006BD789 /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9BF19FFDCC0006BD789 /* StaticLibrary.xcconfig */; };
+		54C1C9D419FFDCC0006BD789 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9C119FFDCC0006BD789 /* iOS-Application.xcconfig */; };
+		54C1C9D519FFDCC0006BD789 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9C219FFDCC0006BD789 /* iOS-Base.xcconfig */; };
+		54C1C9D619FFDCC0006BD789 /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9C319FFDCC0006BD789 /* iOS-Framework.xcconfig */; };
+		54C1C9D719FFDCC0006BD789 /* iOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9C419FFDCC0006BD789 /* iOS-StaticLibrary.xcconfig */; };
+		54C1C9D819FFDCC0006BD789 /* Mac-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9C619FFDCC0006BD789 /* Mac-Application.xcconfig */; };
+		54C1C9D919FFDCC0006BD789 /* Mac-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9C719FFDCC0006BD789 /* Mac-Base.xcconfig */; };
+		54C1C9DA19FFDCC0006BD789 /* Mac-DynamicLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9C819FFDCC0006BD789 /* Mac-DynamicLibrary.xcconfig */; };
+		54C1C9DB19FFDCC0006BD789 /* Mac-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9C919FFDCC0006BD789 /* Mac-Framework.xcconfig */; };
+		54C1C9DC19FFDCC0006BD789 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54C1C9CA19FFDCC0006BD789 /* Mac-StaticLibrary.xcconfig */; };
+		54C1C9DD19FFDCC0006BD789 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 54C1C9CB19FFDCC0006BD789 /* README.md */; };
+		54C1C9E219FFDDD1006BD789 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1C9E019FFDDD1006BD789 /* Mantle.framework */; };
+		54C1C9E319FFDDD1006BD789 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1C9E119FFDDD1006BD789 /* ReactiveCocoa.framework */; };
+		54C1C9EE19FFE2AE006BD789 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1C9ED19FFE2AE006BD789 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +50,27 @@
 		54C1C9A319FFD0DB006BD789 /* SquirrelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquirrelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C1C9A919FFD0DB006BD789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54C1C9AA19FFD0DB006BD789 /* SquirrelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquirrelTests.m; sourceTree = "<group>"; };
+		54C1C9B619FFDCC0006BD789 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		54C1C9B819FFDCC0006BD789 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		54C1C9B919FFDCC0006BD789 /* Profile.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		54C1C9BA19FFDCC0006BD789 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		54C1C9BB19FFDCC0006BD789 /* Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		54C1C9BD19FFDCC0006BD789 /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		54C1C9BE19FFDCC0006BD789 /* Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
+		54C1C9BF19FFDCC0006BD789 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		54C1C9C119FFDCC0006BD789 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		54C1C9C219FFDCC0006BD789 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		54C1C9C319FFDCC0006BD789 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		54C1C9C419FFDCC0006BD789 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		54C1C9C619FFDCC0006BD789 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		54C1C9C719FFDCC0006BD789 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		54C1C9C819FFDCC0006BD789 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		54C1C9C919FFDCC0006BD789 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		54C1C9CA19FFDCC0006BD789 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		54C1C9CB19FFDCC0006BD789 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54C1C9E019FFDDD1006BD789 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = "../../Library/Developer/Xcode/DerivedData/Squirrel-dgisszpilginojhkdoxwaqeqhyyn/Build/Products/Debug/Mantle.framework"; sourceTree = "<group>"; };
+		54C1C9E119FFDDD1006BD789 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../Library/Developer/Xcode/DerivedData/Squirrel-dgisszpilginojhkdoxwaqeqhyyn/Build/Products/Debug/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		54C1C9ED19FFE2AE006BD789 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C1C9E219FFDDD1006BD789 /* Mantle.framework in Frameworks */,
+				54C1C9E319FFDDD1006BD789 /* ReactiveCocoa.framework in Frameworks */,
+				54C1C9EE19FFE2AE006BD789 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +100,9 @@
 			children = (
 				54C1C99A19FFD0DB006BD789 /* Squirrel */,
 				54C1C9A719FFD0DB006BD789 /* SquirrelTests */,
+				54C1C9E419FFDDDB006BD789 /* Frameworks */,
 				54C1C99919FFD0DB006BD789 /* Products */,
+				54C1C9B419FFDCC0006BD789 /* Configurations */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +149,82 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		54C1C9B419FFDCC0006BD789 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				54C1C9B519FFDCC0006BD789 /* Base */,
+				54C1C9C019FFDCC0006BD789 /* iOS */,
+				54C1C9C519FFDCC0006BD789 /* Mac OS X */,
+				54C1C9CB19FFDCC0006BD789 /* README.md */,
+			);
+			name = Configurations;
+			path = External/xcconfigs;
+			sourceTree = "<group>";
+		};
+		54C1C9B519FFDCC0006BD789 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				54C1C9B619FFDCC0006BD789 /* Common.xcconfig */,
+				54C1C9B719FFDCC0006BD789 /* Configurations */,
+				54C1C9BC19FFDCC0006BD789 /* Targets */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		54C1C9B719FFDCC0006BD789 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				54C1C9B819FFDCC0006BD789 /* Debug.xcconfig */,
+				54C1C9B919FFDCC0006BD789 /* Profile.xcconfig */,
+				54C1C9BA19FFDCC0006BD789 /* Release.xcconfig */,
+				54C1C9BB19FFDCC0006BD789 /* Test.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		54C1C9BC19FFDCC0006BD789 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				54C1C9BD19FFDCC0006BD789 /* Application.xcconfig */,
+				54C1C9BE19FFDCC0006BD789 /* Framework.xcconfig */,
+				54C1C9BF19FFDCC0006BD789 /* StaticLibrary.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		54C1C9C019FFDCC0006BD789 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54C1C9C119FFDCC0006BD789 /* iOS-Application.xcconfig */,
+				54C1C9C219FFDCC0006BD789 /* iOS-Base.xcconfig */,
+				54C1C9C319FFDCC0006BD789 /* iOS-Framework.xcconfig */,
+				54C1C9C419FFDCC0006BD789 /* iOS-StaticLibrary.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		54C1C9C519FFDCC0006BD789 /* Mac OS X */ = {
+			isa = PBXGroup;
+			children = (
+				54C1C9C619FFDCC0006BD789 /* Mac-Application.xcconfig */,
+				54C1C9C719FFDCC0006BD789 /* Mac-Base.xcconfig */,
+				54C1C9C819FFDCC0006BD789 /* Mac-DynamicLibrary.xcconfig */,
+				54C1C9C919FFDCC0006BD789 /* Mac-Framework.xcconfig */,
+				54C1C9CA19FFDCC0006BD789 /* Mac-StaticLibrary.xcconfig */,
+			);
+			path = "Mac OS X";
+			sourceTree = "<group>";
+		};
+		54C1C9E419FFDDDB006BD789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C1C9ED19FFE2AE006BD789 /* UIKit.framework */,
+				54C1C9E019FFDDD1006BD789 /* Mantle.framework */,
+				54C1C9E119FFDDD1006BD789 /* ReactiveCocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -121,8 +244,8 @@
 			buildConfigurationList = 54C1C9AE19FFD0DB006BD789 /* Build configuration list for PBXNativeTarget "Squirrel" */;
 			buildPhases = (
 				54C1C99319FFD0DB006BD789 /* Sources */,
-				54C1C99419FFD0DB006BD789 /* Frameworks */,
 				54C1C99519FFD0DB006BD789 /* Headers */,
+				54C1C99419FFD0DB006BD789 /* Frameworks */,
 				54C1C99619FFD0DB006BD789 /* Resources */,
 			);
 			buildRules = (
@@ -192,6 +315,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C1C9CF19FFDCC0006BD789 /* Release.xcconfig in Resources */,
+				54C1C9DB19FFDCC0006BD789 /* Mac-Framework.xcconfig in Resources */,
+				54C1C9CE19FFDCC0006BD789 /* Profile.xcconfig in Resources */,
+				54C1C9D719FFDCC0006BD789 /* iOS-StaticLibrary.xcconfig in Resources */,
+				54C1C9D319FFDCC0006BD789 /* StaticLibrary.xcconfig in Resources */,
+				54C1C9D519FFDCC0006BD789 /* iOS-Base.xcconfig in Resources */,
+				54C1C9CD19FFDCC0006BD789 /* Debug.xcconfig in Resources */,
+				54C1C9CC19FFDCC0006BD789 /* Common.xcconfig in Resources */,
+				54C1C9D219FFDCC0006BD789 /* Framework.xcconfig in Resources */,
+				54C1C9D819FFDCC0006BD789 /* Mac-Application.xcconfig in Resources */,
+				54C1C9D919FFDCC0006BD789 /* Mac-Base.xcconfig in Resources */,
+				54C1C9D019FFDCC0006BD789 /* Test.xcconfig in Resources */,
+				54C1C9DC19FFDCC0006BD789 /* Mac-StaticLibrary.xcconfig in Resources */,
+				54C1C9D119FFDCC0006BD789 /* Application.xcconfig in Resources */,
+				54C1C9DA19FFDCC0006BD789 /* Mac-DynamicLibrary.xcconfig in Resources */,
+				54C1C9D619FFDCC0006BD789 /* iOS-Framework.xcconfig in Resources */,
+				54C1C9D419FFDCC0006BD789 /* iOS-Application.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C1C9DD19FFDCC0006BD789 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +374,7 @@
 /* Begin XCBuildConfiguration section */
 		54C1C9AC19FFD0DB006BD789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C1C9B819FFDCC0006BD789 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -278,6 +420,7 @@
 		};
 		54C1C9AD19FFD0DB006BD789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C1C9BA19FFDCC0006BD789 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -317,11 +460,16 @@
 		};
 		54C1C9AF19FFD0DB006BD789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C1C9C319FFDCC0006BD789 /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Squirrel-dgisszpilginojhkdoxwaqeqhyyn/Build/Products/Debug",
+				);
 				INFOPLIST_FILE = Squirrel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -332,11 +480,16 @@
 		};
 		54C1C9B019FFD0DB006BD789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C1C9C319FFDCC0006BD789 /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Squirrel-dgisszpilginojhkdoxwaqeqhyyn/Build/Products/Debug",
+				);
 				INFOPLIST_FILE = Squirrel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -347,6 +500,7 @@
 		};
 		54C1C9B219FFD0DB006BD789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C1C9C119FFDCC0006BD789 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -364,6 +518,7 @@
 		};
 		54C1C9B319FFD0DB006BD789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C1C9C119FFDCC0006BD789 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -394,6 +549,7 @@
 				54C1C9B019FFD0DB006BD789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54C1C9B119FFD0DB006BD789 /* Build configuration list for PBXNativeTarget "SquirrelTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +558,7 @@
 				54C1C9B319FFD0DB006BD789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
