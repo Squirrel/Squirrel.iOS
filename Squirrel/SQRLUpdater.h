@@ -10,14 +10,9 @@
 //
 // SQRLUpdaterStateIdle              - Doing absolutely diddly squat.
 // SQRLUpdaterStateCheckingForUpdate - Checking for any updates from the server.
-// SQRLUpdaterStateDownloadingUpdate - Update found, downloading the archive.
-// SQRLUpdaterStateAwaitingRelaunch  - Awaiting a relaunch to install
-//                                     the update.
 typedef enum : NSUInteger {
        SQRLUpdaterStateIdle,
-       SQRLUpdaterStateCheckingForUpdate,
-       SQRLUpdaterStateDownloadingUpdate,
-       SQRLUpdaterStateAwaitingRelaunch,
+       SQRLUpdaterStateCheckingForUpdate
 } SQRLUpdaterState;
 
 // The domain for errors originating within SQRLUpdater.
@@ -117,21 +112,6 @@ extern NSString * const SQRLUpdaterJSONObjectErrorKey;
 // Returns a disposable which can be used to cancel the automatic update
 // checking.
 - (RACDisposable *)startAutomaticChecksWithInterval:(NSTimeInterval)interval;
-
-// Terminates the running application to install any available update, then
-// automatically relaunches the app after updating.
-//
-// This method is only useful if you want the application to automatically
-// relaunch. Otherwise, you can simply use `-[NSApplication terminate:]` or any
-// other exit mechanism.
-//
-// After invoking this method, the receiver is responsible for terminating the
-// application upon success. The app must not be terminated in any other way
-// unless an error occurs.
-//
-// Returns a signal that will error on the main scheduler if anything goes
-// wrong before termination. The signal will never complete.
-- (RACSignal *)relaunchToInstallUpdate;
 
 @end
 

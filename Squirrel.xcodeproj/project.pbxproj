@@ -37,6 +37,10 @@
 		54C1C9EE19FFE2AE006BD789 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1C9ED19FFE2AE006BD789 /* UIKit.framework */; };
 		54C1C9F219FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C1C9F019FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.h */; };
 		54C1C9F319FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C1C9F119FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.m */; };
+		54C1C9FF19FFE685006BD789 /* NSBundle+SQRLVersionExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C1C9FB19FFE685006BD789 /* NSBundle+SQRLVersionExtensions.h */; };
+		54C1CA0019FFE685006BD789 /* NSBundle+SQRLVersionExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C1C9FC19FFE685006BD789 /* NSBundle+SQRLVersionExtensions.m */; };
+		54C1CA0119FFE685006BD789 /* NSError+SQRLVerbosityExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C1C9FD19FFE685006BD789 /* NSError+SQRLVerbosityExtensions.h */; };
+		54C1CA0219FFE685006BD789 /* NSError+SQRLVerbosityExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C1C9FE19FFE685006BD789 /* NSError+SQRLVerbosityExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +88,10 @@
 		54C1C9F019FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProcessInfo+SQRLVersionExtensions.h"; sourceTree = "<group>"; };
 		54C1C9F119FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProcessInfo+SQRLVersionExtensions.m"; sourceTree = "<group>"; };
 		54C1C9FA19FFE581006BD789 /* Squirrel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Squirrel-Prefix.pch"; path = "Squirrel/Squirrel-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		54C1C9FB19FFE685006BD789 /* NSBundle+SQRLVersionExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SQRLVersionExtensions.h"; sourceTree = "<group>"; };
+		54C1C9FC19FFE685006BD789 /* NSBundle+SQRLVersionExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SQRLVersionExtensions.m"; sourceTree = "<group>"; };
+		54C1C9FD19FFE685006BD789 /* NSError+SQRLVerbosityExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+SQRLVerbosityExtensions.h"; sourceTree = "<group>"; };
+		54C1C9FE19FFE685006BD789 /* NSError+SQRLVerbosityExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+SQRLVerbosityExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +264,10 @@
 		54C1C9F419FFE34B006BD789 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				54C1C9FB19FFE685006BD789 /* NSBundle+SQRLVersionExtensions.h */,
+				54C1C9FC19FFE685006BD789 /* NSBundle+SQRLVersionExtensions.m */,
+				54C1C9FD19FFE685006BD789 /* NSError+SQRLVerbosityExtensions.h */,
+				54C1C9FE19FFE685006BD789 /* NSError+SQRLVerbosityExtensions.m */,
 				54C1C9F019FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.h */,
 				54C1C9F119FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.m */,
 			);
@@ -269,6 +281,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C1CA0119FFE685006BD789 /* NSError+SQRLVerbosityExtensions.h in Headers */,
+				54C1C9FF19FFE685006BD789 /* NSBundle+SQRLVersionExtensions.h in Headers */,
 				54C1C99E19FFD0DB006BD789 /* Squirrel.h in Headers */,
 				54C1C9EB19FFE289006BD789 /* SQRLUpdater.h in Headers */,
 				54C1C9F219FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.h in Headers */,
@@ -390,8 +404,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C1CA0019FFE685006BD789 /* NSBundle+SQRLVersionExtensions.m in Sources */,
 				54C1C9E819FFE265006BD789 /* SQRLUpdate.m in Sources */,
 				54C1C9EC19FFE289006BD789 /* SQRLUpdater.m in Sources */,
+				54C1CA0219FFE685006BD789 /* NSError+SQRLVerbosityExtensions.m in Sources */,
 				54C1C9DD19FFDCC0006BD789 /* README.md in Sources */,
 				54C1C9F319FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.m in Sources */,
 			);
