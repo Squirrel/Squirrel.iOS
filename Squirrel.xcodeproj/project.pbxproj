@@ -83,6 +83,7 @@
 		54C1C9ED19FFE2AE006BD789 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54C1C9F019FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProcessInfo+SQRLVersionExtensions.h"; sourceTree = "<group>"; };
 		54C1C9F119FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProcessInfo+SQRLVersionExtensions.m"; sourceTree = "<group>"; };
+		54C1C9FA19FFE581006BD789 /* Squirrel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Squirrel-Prefix.pch"; path = "Squirrel/Squirrel-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +160,7 @@
 		54C1C9A819FFD0DB006BD789 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				54C1C9FA19FFE581006BD789 /* Squirrel-Prefix.pch */,
 				54C1C9A919FFD0DB006BD789 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -512,6 +514,7 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Squirrel-dgisszpilginojhkdoxwaqeqhyyn/Build/Products/Debug",
 				);
+				GCC_PREFIX_HEADER = "Squirrel/Squirrel-Prefix.pch";
 				INFOPLIST_FILE = Squirrel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -532,6 +535,7 @@
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Squirrel-dgisszpilginojhkdoxwaqeqhyyn/Build/Products/Debug",
 				);
+				GCC_PREFIX_HEADER = "Squirrel/Squirrel-Prefix.pch";
 				INFOPLIST_FILE = Squirrel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
