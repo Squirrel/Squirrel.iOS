@@ -1,0 +1,12 @@
+[submodule "External/ReactiveCocoa"]
+	path = External/ReactiveCocoa
+	url = https://github.com/ReactiveCocoa/ReactiveCocoa.git
+[submodule "External/Quick"]
+	path = External/Quick
+	url = https://github.com/github/Quick.git
+[submodule "External/xcconfigs"]
+	path = External/xcconfigs
+	url = https://github.com/jspahrsummers/xcconfigs.git
+[submodule "External/Mantle"]
+	path = External/Mantle
+	url = https://github.com/Mantle/Mantle.git
