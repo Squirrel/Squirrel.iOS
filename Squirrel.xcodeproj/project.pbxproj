@@ -105,6 +105,7 @@
 				54C1C9B419FFDCC0006BD789 /* Configurations */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		54C1C99919FFD0DB006BD789 /* Products */ = {
 			isa = PBXGroup;
@@ -281,6 +282,7 @@
 		54C1C98F19FFD0DB006BD789 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SQRL;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = GitHub;
 				TargetAttributes = {
