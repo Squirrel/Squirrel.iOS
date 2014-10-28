@@ -14,6 +14,6 @@ FOUNDATION_EXPORT double SquirrelVersionNumber;
 //! Project version string for Squirrel.
 FOUNDATION_EXPORT const unsigned char SquirrelVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <Squirrel/PublicHeader.h>
-
-
+#import <Squirrel/NSProcessInfo+SQRLVersionExtensions.h>
+#import <Squirrel/SQRLUpdate.h>
+#import <Squirrel/SQRLUpdater.h>

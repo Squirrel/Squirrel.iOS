@@ -30,7 +30,13 @@
 		54C1C9DD19FFDCC0006BD789 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 54C1C9CB19FFDCC0006BD789 /* README.md */; };
 		54C1C9E219FFDDD1006BD789 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1C9E019FFDDD1006BD789 /* Mantle.framework */; };
 		54C1C9E319FFDDD1006BD789 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1C9E119FFDDD1006BD789 /* ReactiveCocoa.framework */; };
+		54C1C9E719FFE265006BD789 /* SQRLUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C1C9E519FFE265006BD789 /* SQRLUpdate.h */; };
+		54C1C9E819FFE265006BD789 /* SQRLUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C1C9E619FFE265006BD789 /* SQRLUpdate.m */; };
+		54C1C9EB19FFE289006BD789 /* SQRLUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C1C9E919FFE289006BD789 /* SQRLUpdater.h */; };
+		54C1C9EC19FFE289006BD789 /* SQRLUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C1C9EA19FFE289006BD789 /* SQRLUpdater.m */; };
 		54C1C9EE19FFE2AE006BD789 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1C9ED19FFE2AE006BD789 /* UIKit.framework */; };
+		54C1C9F219FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C1C9F019FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.h */; };
+		54C1C9F319FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C1C9F119FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +76,13 @@
 		54C1C9CB19FFDCC0006BD789 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		54C1C9E019FFDDD1006BD789 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = "../../Library/Developer/Xcode/DerivedData/Squirrel-dgisszpilginojhkdoxwaqeqhyyn/Build/Products/Debug/Mantle.framework"; sourceTree = "<group>"; };
 		54C1C9E119FFDDD1006BD789 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../Library/Developer/Xcode/DerivedData/Squirrel-dgisszpilginojhkdoxwaqeqhyyn/Build/Products/Debug/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		54C1C9E519FFE265006BD789 /* SQRLUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRLUpdate.h; sourceTree = "<group>"; };
+		54C1C9E619FFE265006BD789 /* SQRLUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRLUpdate.m; sourceTree = "<group>"; };
+		54C1C9E919FFE289006BD789 /* SQRLUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRLUpdater.h; sourceTree = "<group>"; };
+		54C1C9EA19FFE289006BD789 /* SQRLUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRLUpdater.m; sourceTree = "<group>"; };
 		54C1C9ED19FFE2AE006BD789 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54C1C9F019FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProcessInfo+SQRLVersionExtensions.h"; sourceTree = "<group>"; };
+		54C1C9F119FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProcessInfo+SQRLVersionExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				54C1C99D19FFD0DB006BD789 /* Squirrel.h */,
+				54C1C9F419FFE34B006BD789 /* Extensions */,
+				54C1C9EF19FFE2DE006BD789 /* Classes */,
 				54C1C99B19FFD0DB006BD789 /* Supporting Files */,
 			);
 			path = Squirrel;
@@ -226,6 +240,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		54C1C9EF19FFE2DE006BD789 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54C1C9E519FFE265006BD789 /* SQRLUpdate.h */,
+				54C1C9E619FFE265006BD789 /* SQRLUpdate.m */,
+				54C1C9E919FFE289006BD789 /* SQRLUpdater.h */,
+				54C1C9EA19FFE289006BD789 /* SQRLUpdater.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		54C1C9F419FFE34B006BD789 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				54C1C9F019FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.h */,
+				54C1C9F119FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -234,6 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54C1C99E19FFD0DB006BD789 /* Squirrel.h in Headers */,
+				54C1C9EB19FFE289006BD789 /* SQRLUpdater.h in Headers */,
+				54C1C9F219FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.h in Headers */,
+				54C1C9E719FFE265006BD789 /* SQRLUpdate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C1C9E819FFE265006BD789 /* SQRLUpdate.m in Sources */,
+				54C1C9EC19FFE289006BD789 /* SQRLUpdater.m in Sources */,
 				54C1C9DD19FFDCC0006BD789 /* README.md in Sources */,
+				54C1C9F319FFE342006BD789 /* NSProcessInfo+SQRLVersionExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
