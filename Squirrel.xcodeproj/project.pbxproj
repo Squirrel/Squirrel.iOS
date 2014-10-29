@@ -151,6 +151,7 @@
 		54C1C99B19FFD0DB006BD789 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				54C1C9FA19FFE581006BD789 /* Squirrel-Prefix.pch */,
 				54C1C99C19FFD0DB006BD789 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -168,7 +169,6 @@
 		54C1C9A819FFD0DB006BD789 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				54C1C9FA19FFE581006BD789 /* Squirrel-Prefix.pch */,
 				54C1C9A919FFD0DB006BD789 /* Info.plist */,
 			);
 			name = "Supporting Files";
