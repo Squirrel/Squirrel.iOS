@@ -8,6 +8,9 @@
       location = "group:External/Mantle/Mantle.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:External/OHHTTPStubs/OHHTTPStubs/OHHTTPStubs.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:External/Quick/Quick/Quick.xcodeproj">
    </FileRef>
    <FileRef
