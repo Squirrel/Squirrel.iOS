@@ -30,6 +30,9 @@
 		54C1CA0019FFE685006BD789 /* NSBundle+SQRLVersionExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C1C9FC19FFE685006BD789 /* NSBundle+SQRLVersionExtensions.m */; };
 		54C1CA0119FFE685006BD789 /* NSError+SQRLVerbosityExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C1C9FD19FFE685006BD789 /* NSError+SQRLVerbosityExtensions.h */; };
 		54C1CA0219FFE685006BD789 /* NSError+SQRLVerbosityExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C1C9FE19FFE685006BD789 /* NSError+SQRLVerbosityExtensions.m */; };
+		54C1CA0C1A00FE10006BD789 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1CA0B1A00FE10006BD789 /* Quick.framework */; };
+		54C1CA0E1A00FE15006BD789 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1CA0D1A00FE15006BD789 /* Nimble.framework */; };
+		54C1CA101A00FE19006BD789 /* libOHHTTPStubs-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1CA0F1A00FE19006BD789 /* libOHHTTPStubs-iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,9 @@
 		54C1C9FC19FFE685006BD789 /* NSBundle+SQRLVersionExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SQRLVersionExtensions.m"; sourceTree = "<group>"; };
 		54C1C9FD19FFE685006BD789 /* NSError+SQRLVerbosityExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+SQRLVerbosityExtensions.h"; sourceTree = "<group>"; };
 		54C1C9FE19FFE685006BD789 /* NSError+SQRLVerbosityExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+SQRLVerbosityExtensions.m"; sourceTree = "<group>"; };
+		54C1CA0B1A00FE10006BD789 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../Library/Developer/Xcode/DerivedData/Squirrel-dgisszpilginojhkdoxwaqeqhyyn/Build/Products/Debug/Quick.framework"; sourceTree = "<group>"; };
+		54C1CA0D1A00FE15006BD789 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "External/Quick/Externals/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		54C1CA0F1A00FE19006BD789 /* libOHHTTPStubs-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOHHTTPStubs-iOS.a"; path = "External/OHHTTPStubs/OHHTTPStubs/build/Debug-iphoneos/libOHHTTPStubs-iOS.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C1CA101A00FE19006BD789 /* libOHHTTPStubs-iOS.a in Frameworks */,
+				54C1CA0C1A00FE10006BD789 /* Quick.framework in Frameworks */,
+				54C1CA0E1A00FE15006BD789 /* Nimble.framework in Frameworks */,
 				54C1C9A419FFD0DB006BD789 /* Squirrel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +241,9 @@
 		54C1C9E419FFDDDB006BD789 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54C1CA0F1A00FE19006BD789 /* libOHHTTPStubs-iOS.a */,
+				54C1CA0D1A00FE15006BD789 /* Nimble.framework */,
+				54C1CA0B1A00FE10006BD789 /* Quick.framework */,
 				54C1C9ED19FFE2AE006BD789 /* UIKit.framework */,
 				54C1C9E019FFDDD1006BD789 /* Mantle.framework */,
 				54C1C9E119FFDDD1006BD789 /* ReactiveCocoa.framework */,
@@ -543,8 +555,10 @@
 			baseConfigurationReference = 54C1C9C119FFDCC0006BD789 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Squirrel-dgisszpilginojhkdoxwaqeqhyyn/Build/Products/Debug",
+					"$(PROJECT_DIR)/External/Quick/Externals/Nimble/build/Debug-iphoneos",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -552,6 +566,10 @@
 				);
 				INFOPLIST_FILE = SquirrelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External/OHHTTPStubs/OHHTTPStubs/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -561,11 +579,17 @@
 			baseConfigurationReference = 54C1C9C119FFDCC0006BD789 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Squirrel-dgisszpilginojhkdoxwaqeqhyyn/Build/Products/Debug",
+					"$(PROJECT_DIR)/External/Quick/Externals/Nimble/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = SquirrelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External/OHHTTPStubs/OHHTTPStubs/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
